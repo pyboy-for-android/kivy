@@ -32,6 +32,7 @@ from kivy.logger import Logger
 
 from os.path import join
 from kivy import kivy_shader_dir
+from ctypes import c_long as long
 
 cdef object DEFAULT_TEXTURE = None
 cdef object get_default_texture():
